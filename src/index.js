@@ -1,12 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+
+import logo from "./logo.svg";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
+
+import $ from 'jquery';
+import Popper from 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <div className="App">
+          <header className="App-header">
+              <img src={logo} className="App-logo" alt="logo" />
+              <p>
+                  Edit <code>src/App.js</code> and save to reload.
+              </p>
+              <a
+                  className="App-link"
+                  href="https://reactjs.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+              >
+                  Learn React
+              </a>
+          </header>
+      </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
