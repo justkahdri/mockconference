@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -15,41 +16,25 @@ code {
     monospace;
 }
 
-.App {
-  text-align: center;
+/* SPECIFIC */
+
+.text-platzi {
+  color: #97c93e !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-platzi:hover {
+  color: #82ad36 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn.btn-platzi {
+  background-color: #97c93e;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn.btn-platzi:hover {
+  background-color: #82ad36;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scrolldiv {
+  position: relative;
 }

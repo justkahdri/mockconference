@@ -1,34 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import reportWebVitals from './reportWebVitals';
 
-import logo from "./logo.svg";
+import Header from './components/Header';
+import MainBanner from "./components/MainBanner";
+import SpeakersContainer from "./components/SpeakersContainer";
+import SpeakerCard from "./components/SpeakerCard";
+import InfoBanner from "./components/InfoBanner";
+import BecomeSpeaker from "./components/BecomeSpeaker";
+import Footer from "./components/Footer";
+import Modal from "./components/Modal";
+
+import cvander from "./assets/speakers/cvander.jpeg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
-import $ from 'jquery';
-import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 ReactDOM.render(
   <React.StrictMode>
-      <div className="App">
-          <header className="App-header">
-              <img src={logo} className="App-logo" alt="logo" />
-              <p>
-                  Edit <code>src/App.js</code> and save to reload.
-              </p>
-              <a
-                  className="App-link"
-                  href="https://reactjs.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
-              >
-                  Learn React
-              </a>
-          </header>
-      </div>
+      <Header />
+      <MainBanner />
+      <SpeakersContainer>
+          <SpeakerCard name="Leonidas Esteban" avatar={cvander}/>
+          <SpeakerCard name="Freddy Vega" avatar={cvander}/>
+          <SpeakerCard name="Sacha Lifszyc" avatar={cvander}/>
+          <SpeakerCard name="Christian Van Der H." avatar={cvander}/>
+      </SpeakersContainer>
+      <InfoBanner />
+      <BecomeSpeaker />
+      <Footer />
+      <Modal />
   </React.StrictMode>,
   document.getElementById('root')
 );
