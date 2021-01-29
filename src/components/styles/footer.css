@@ -1,7 +1,7 @@
-#footer {
-    background: #19303c;
+#footer .btn-link{
+    color: white;
 }
 
-#footer a{
-    color: white;
+#footer .btn-link:focus{
+    box-shadow: none;
 }

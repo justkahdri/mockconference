@@ -44,7 +44,7 @@ const BecomeSpeaker = () => {
                             </div>
                         </div>
                         <div className="form-row">
-                            <button type="button" className="btn btn-platzi btn-block">Enviar</button>
+                            <button type="button" className="btn btn-primary btn-block">Enviar</button>
                         </div>
                     </form>
                 </div>

@@ -6,8 +6,11 @@ const SpeakerCard = (props) => (
             <img className="card-img-top" src={props.avatar} alt={props.name + " Profile"} />
             <div className="card-body">
                 <div className="badges text-right">
-                    <span className="badge badge-warning mr-2">JavaScript</span>
-                    <span className="badge badge-info mr-2">React</span>
+                    <span className="badge badge-primary mr-2">Entry Fragger</span>
+                    <span className="badge badge-success mr-2">IGL</span>
+                    <span className="badge badge-warning mr-2">AWPer</span>
+                    <span className="badge badge-secondary mr-2">Lurker</span>
+                    <span className="badge badge-info mr-2">Support</span>
                 </div>
                 <h5 className="card-title">{props.name}</h5>
                 <p className="card-text">

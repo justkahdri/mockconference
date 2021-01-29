@@ -1,3 +1,10 @@
-#header img.platzi-logo {
-    width: 80px;
+#header img.main-logo {
+    width: 60px;
+}
+
+#header button.nav-link:focus {
+    box-shadow: none;
+}
+#header button.nav-link:hover {
+    filter: brightness(125%);
 }

@@ -2,35 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 
-import Header from './components/Header';
-import MainBanner from "./components/MainBanner";
-import SpeakersContainer from "./components/SpeakersContainer";
-import SpeakerCard from "./components/SpeakerCard";
-import InfoBanner from "./components/InfoBanner";
-import BecomeSpeaker from "./components/BecomeSpeaker";
-import Footer from "./components/Footer";
-import Modal from "./components/Modal";
-
-import cvander from "./assets/speakers/cvander.jpeg";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
+import App from './App';
 
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css'; // Main css for the project
+import './custom.css'; // Custom Theme for Bootstrap
 
 ReactDOM.render(
   <React.StrictMode>
-      <Header />
-      <MainBanner />
-      <SpeakersContainer>
-          <SpeakerCard name="Leonidas Esteban" avatar={cvander}/>
-          <SpeakerCard name="Freddy Vega" avatar={cvander}/>
-          <SpeakerCard name="Sacha Lifszyc" avatar={cvander}/>
-          <SpeakerCard name="Christian Van Der H." avatar={cvander}/>
-      </SpeakersContainer>
-      <InfoBanner />
-      <BecomeSpeaker />
-      <Footer />
-      <Modal />
+      <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

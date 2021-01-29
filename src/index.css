@@ -15,26 +15,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-/* SPECIFIC */
-
-.text-platzi {
-  color: #97c93e !important;
-}
-
-.text-platzi:hover {
-  color: #82ad36 !important;
-}
-
-.btn.btn-platzi {
-  background-color: #97c93e;
-  color: white;
-}
-
-.btn.btn-platzi:hover {
-  background-color: #82ad36;
-}
-
-.scrolldiv {
-  position: relative;
-}
