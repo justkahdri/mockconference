@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollSpy from "react-scrollspy";
 
-import logo from '../assets/images/logo.png';
+import logo from '../assets/misc/logo.png';
 import './styles/header.css';
 
 const Header = ({fromParent, updateTranslation, t}) => {

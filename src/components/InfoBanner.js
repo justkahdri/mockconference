@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './styles/infobanner.css';
-import side_image from '../assets/images/microphone.jpg';
+import side_image from '../assets/misc/microphone.jpg';
 
 const InfoBanner = ({t}) => {
     const sorted_content = Object.fromEntries(
