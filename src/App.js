@@ -18,24 +18,20 @@ import { speakers } from "./components/speakers.js";
 const App = () => {
     const { t, i18n } = useTranslation();
 
-    const handleLanguage = (lang) => {
-        i18n.changeLanguage(lang);
-    }
-
     return (
         <React.Fragment>
-            <Header availableLanguages={{en: 'English', es: 'Español'}} updateTranslation={handleLanguage} />
-            <MainBanner />
-            <SpeakersContainer>
+            <Header fromParent={i18n.language.toUpperCase()} t={t} updateTranslation={lang => i18n.changeLanguage(lang)} />
+            <MainBanner tlate={t}/>
+            <SpeakersContainer tlate={t}>
                 {speakers.map(item => (
                     <SpeakerCard name={item.name} key={item.name} badges={item.topics}
                                  description={item.description} avatar={item.image}/>
                 ))}
             </SpeakersContainer>
-            <InfoBanner translation={t}/>
-            <BecomeSpeaker />
-            <Footer />
-            <Modal />
+            <InfoBanner t={t}/>
+            <BecomeSpeaker tlate={t}/>
+            <Footer t={t}/>
+            <Modal t={t}/>
         </React.Fragment>
     );
 }

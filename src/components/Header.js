@@ -4,8 +4,8 @@ import ScrollSpy from "react-scrollspy";
 import logo from '../assets/images/logo.png';
 import './styles/header.css';
 
-const Header = ({availableLanguages, updateTranslation}) => {
-    const [currentLanguage, setCurrentLanguage] = React.useState("EN");
+const Header = ({fromParent, updateTranslation, t}) => {
+    const [currentLanguage, setCurrentLanguage] = React.useState(fromParent);
 
     const handleDropdown = (code) => {
         updateTranslation(code);
@@ -29,23 +29,24 @@ const Header = ({availableLanguages, updateTranslation}) => {
                         <ScrollSpy items={["main", "speakers", "place-time", "become-speaker"]}
                                    className="navbar-nav ml-auto" currentClassName="active">
                             <li className="nav-item">
-                                <a className="nav-link" href="#main">La conferencia</a>
+                                <a className="nav-link" href="#main">{t('Buttons.conference')}</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#speakers">Los oradores</a>
+                                <a className="nav-link" href="#speakers">{t('Buttons.the-speakers')}</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#place-time">El lugar y la fecha</a>
+                                <a className="nav-link" href="#place-time">{t('Buttons.place-time')}</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#become-speaker" referrerPolicy="tag">Conviertete en orador</a>
+                                <a className="nav-link" href="#become-speaker" referrerPolicy="tag">{t('Buttons.become-speaker.1')}</a>
                             </li>
 
                         </ScrollSpy>
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <button className="btn nav-link text-primary" data-toggle="modal" data-target="#modalCompra">Comprar
-                                    Tickets</button>
+                                <button className="btn nav-link text-primary" data-toggle="modal" data-target="#modalCompra">
+                                    {t('Buttons.buy-tickets')}
+                                </button>
                             </li>
                         </ul>
                     </div>
@@ -57,11 +58,12 @@ const Header = ({availableLanguages, updateTranslation}) => {
                     {currentLanguage}
                 </button>
                 <div className="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                    {Object.entries(availableLanguages).map(([key, value]) => (
-                        <button onClick={() => handleDropdown(key)}
-                                key={key} className="btn btn-link dropdown-item">{value}
-                        </button>
-                    ))}
+                    <button onClick={() => handleDropdown('en')} className="btn btn-link dropdown-item">
+                        English
+                    </button>
+                    <button onClick={() => handleDropdown('es')} className="btn btn-link dropdown-item">
+                        Español
+                    </button>
                 </div>
             </div>
 

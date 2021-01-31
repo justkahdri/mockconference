@@ -1,5 +1,7 @@
+// Function: gets file name and returns the src for the image
 const load_avatar = name => require('../assets/speakers/' + name).default;
 
+// Fake JSON from DB: Returns all the verified speakers
 export const speakers = [
   {
     name: "Andrea Morillo",
