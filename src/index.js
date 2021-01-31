@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 
+import './i18n';
+
 import App from './App';
 
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -11,7 +13,9 @@ import './custom.css'; // Custom Theme for Bootstrap
 
 ReactDOM.render(
   <React.StrictMode>
-      <App />
+      <React.Suspense fallback={(<div>Loading...</div>)}>
+          <App />
+      </React.Suspense>
   </React.StrictMode>,
   document.getElementById('root')
 );

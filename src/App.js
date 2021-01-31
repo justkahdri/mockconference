@@ -1,5 +1,6 @@
 // DEPENDENCIES
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 // COMPONENTS
 import Header from "./components/Header";
@@ -11,21 +12,27 @@ import BecomeSpeaker from "./components/BecomeSpeaker";
 import Footer from "./components/Footer";
 import Modal from "./components/Modal";
 
-// CSS & ASSETS
-import cvander from "./assets/speakers/cvander.jpeg";
+// ASSETS
+import { speakers } from "./components/speakers.js";
 
 const App = () => {
+    const { t, i18n } = useTranslation();
+
+    const handleLanguage = (lang) => {
+        i18n.changeLanguage(lang);
+    }
+
     return (
         <React.Fragment>
-            <Header />
+            <Header availableLanguages={{en: 'English', es: 'Español'}} updateTranslation={handleLanguage} />
             <MainBanner />
             <SpeakersContainer>
-                <SpeakerCard name="Leonidas Esteban" avatar={cvander}/>
-                <SpeakerCard name="Freddy Vega" avatar={cvander}/>
-                <SpeakerCard name="Sacha Lifszyc" avatar={cvander}/>
-                <SpeakerCard name="Christian Van Der H." avatar={cvander}/>
+                {speakers.map(item => (
+                    <SpeakerCard name={item.name} key={item.name} badges={item.topics}
+                                 description={item.description} avatar={item.image}/>
+                ))}
             </SpeakersContainer>
-            <InfoBanner />
+            <InfoBanner translation={t}/>
             <BecomeSpeaker />
             <Footer />
             <Modal />
