@@ -12,12 +12,12 @@ import './index.css'; // Main css for the project
 import './custom.css'; // Custom Theme for Bootstrap
 
 ReactDOM.render(
-  <React.StrictMode>
-      <React.Suspense fallback={(<div>Loading...</div>)}>
-          <App />
-      </React.Suspense>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <React.Suspense fallback={(<div>Loading...</div>)}>
+            <App />
+        </React.Suspense>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
