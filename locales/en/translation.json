@@ -1,0 +1,55 @@
+{
+	"Buttons": {
+		"become-speaker": {
+			"1": "Become a speaker",
+			"2": "Join as speaker"
+		},
+		"buy": "Buy",
+		"buy-tickets": "Buy Tickets",
+		"close": "Close",
+		"conference": "The conference",
+		"more": "Learn More",
+		"place-time": "Place and Time",
+		"send": "Send",
+		"the-speakers": "The speakers"
+	},
+	"Footer": {
+		"careers": "Careers",
+		"contact": "Contact",
+		"faq": "FAQ",
+		"press": "Press",
+		"privacy": "Privacy",
+		"terms-conditions": "Terms and Conditions"
+	},
+	"Info-section": {
+		"a_title": "COLLABORATION & INNOVATION - October 2025",
+		"b_introduction": "For more than 10 years, Völkin' regional conference has been the source for education and peer-to-peer exchange for all things enterprise IT and infrastructure. Now, we are finally going international to share the knowledge across the world.",
+		"c_industry": "We know the industry has been disrupted and has accelerated trends in ways we didn't see coming. It's time to embrace the change in order to thrive in the future. We want to get back to the business of connecting people, ideas and opportunities. We also know that you want answers and insights on what the future holds for your careers and businesses.",
+		"d_event": "Our events bring together the latest technology advancements as well as practical examples to solve challenges in business and society.",
+		"e_features": "Völkin' features sessions on the full scope of digital transformation technologies including Artificial Intelligence and Machine Learning, Observability, DevOps, Performance Engineering, Digital Process, Cloud Native Applications, and the IT infrastructures that support them."
+	},
+	"Main": {
+		"body": "Völkin Conf arrives for the first time to the international scene! An event meant to share the experiences from the experts that are building the future of Internet with our community. Come to meet the team members and our first-class speakers. You won't regret it!",
+		"title": "Völkin'Conf International"
+	},
+	"Placeholders": {
+		"about": "Which topic would you want to talk about?",
+		"modal-warning": "A confirmation email will be sent to you if you are raffled.",
+		"name": "First Name",
+		"surname": "Last Name",
+		"talks": "5 minutes' talks",
+		"user": "Username"
+	},
+	"Speakers": {
+		"1": "Speaker",
+		"2": "Speakers",
+		"become": "Become a",
+		"form": {
+			"1": "Fill the form in order to give an",
+			"2": "ignite talk",
+			"3": "Tell us what do you want to talk about!",
+			"reminder": "Remember to include a title for your talk."
+		},
+		"meet": "Meet the"
+	}
+}

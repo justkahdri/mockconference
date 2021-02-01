@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/mockconference/static/css/main.573596aa.chunk.css",
+    "main.js": "/mockconference/static/js/main.9e7576ec.chunk.js",
+    "main.js.map": "/mockconference/static/js/main.9e7576ec.chunk.js.map",
+    "runtime-main.js": "/mockconference/static/js/runtime-main.fcb88f23.js",
+    "runtime-main.js.map": "/mockconference/static/js/runtime-main.fcb88f23.js.map",
+    "static/css/2.150d169a.chunk.css": "/mockconference/static/css/2.150d169a.chunk.css",
+    "static/js/2.0d1771fe.chunk.js": "/mockconference/static/js/2.0d1771fe.chunk.js",
+    "static/js/2.0d1771fe.chunk.js.map": "/mockconference/static/js/2.0d1771fe.chunk.js.map",
+    "static/js/3.3c3a0ba3.chunk.js": "/mockconference/static/js/3.3c3a0ba3.chunk.js",
+    "static/js/3.3c3a0ba3.chunk.js.map": "/mockconference/static/js/3.3c3a0ba3.chunk.js.map",
+    "index.html": "/mockconference/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/mockconference/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.573596aa.chunk.css.map": "/mockconference/static/css/main.573596aa.chunk.css.map",
+    "static/js/2.0d1771fe.chunk.js.LICENSE.txt": "/mockconference/static/js/2.0d1771fe.chunk.js.LICENSE.txt",
+    "static/media/adrie.jpg": "/mockconference/static/media/adrie.e77d4beb.jpg",
+    "static/media/andrea.jpg": "/mockconference/static/media/andrea.7305efc3.jpg",
+    "static/media/conference.jpg": "/mockconference/static/media/conference.b64c4339.jpg",
+    "static/media/gabriela.jpg": "/mockconference/static/media/gabriela.f89326f4.jpg",
+    "static/media/getFetch.cjs": "/mockconference/static/media/getFetch.d7d6010d.cjs",
+    "static/media/international.jpg": "/mockconference/static/media/international.87a5678c.jpg",
+    "static/media/logo.055fdf18.png": "/mockconference/static/media/logo.055fdf18.png",
+    "static/media/matheus.jpg": "/mockconference/static/media/matheus.f629201a.jpg",
+    "static/media/meeting.jpg": "/mockconference/static/media/meeting.9e973505.jpg",
+    "static/media/mei.jpg": "/mockconference/static/media/mei.1137c5f7.jpg",
+    "static/media/microphone.ab0fcdd8.jpg": "/mockconference/static/media/microphone.ab0fcdd8.jpg",
+    "static/media/sacha.jpg": "/mockconference/static/media/sacha.b03636ef.jpg",
+    "static/media/samuel.jpg": "/mockconference/static/media/samuel.c59684d1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fcb88f23.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.0d1771fe.chunk.js",
+    "static/css/main.573596aa.chunk.css",
+    "static/js/main.9e7576ec.chunk.js"
+  ]
+}
