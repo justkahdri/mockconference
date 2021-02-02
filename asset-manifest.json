@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "https://justkahdri.github.io/mockconference/static/css/main.573596aa.chunk.css",
-    "main.js": "https://justkahdri.github.io/mockconference/static/js/main.67d2ef6f.chunk.js",
-    "main.js.map": "https://justkahdri.github.io/mockconference/static/js/main.67d2ef6f.chunk.js.map",
-    "runtime-main.js": "https://justkahdri.github.io/mockconference/static/js/runtime-main.2b7c0a5a.js",
-    "runtime-main.js.map": "https://justkahdri.github.io/mockconference/static/js/runtime-main.2b7c0a5a.js.map",
+    "main.js": "https://justkahdri.github.io/mockconference/static/js/main.5d84fcd3.chunk.js",
+    "main.js.map": "https://justkahdri.github.io/mockconference/static/js/main.5d84fcd3.chunk.js.map",
+    "runtime-main.js": "https://justkahdri.github.io/mockconference/static/js/runtime-main.0fb4c758.js",
+    "runtime-main.js.map": "https://justkahdri.github.io/mockconference/static/js/runtime-main.0fb4c758.js.map",
     "static/css/2.150d169a.chunk.css": "https://justkahdri.github.io/mockconference/static/css/2.150d169a.chunk.css",
-    "static/js/2.0d1771fe.chunk.js": "https://justkahdri.github.io/mockconference/static/js/2.0d1771fe.chunk.js",
-    "static/js/2.0d1771fe.chunk.js.map": "https://justkahdri.github.io/mockconference/static/js/2.0d1771fe.chunk.js.map",
-    "static/js/3.3c3a0ba3.chunk.js": "https://justkahdri.github.io/mockconference/static/js/3.3c3a0ba3.chunk.js",
-    "static/js/3.3c3a0ba3.chunk.js.map": "https://justkahdri.github.io/mockconference/static/js/3.3c3a0ba3.chunk.js.map",
+    "static/js/2.0e8a89fb.chunk.js": "https://justkahdri.github.io/mockconference/static/js/2.0e8a89fb.chunk.js",
+    "static/js/2.0e8a89fb.chunk.js.map": "https://justkahdri.github.io/mockconference/static/js/2.0e8a89fb.chunk.js.map",
+    "static/js/3.adc8b15d.chunk.js": "https://justkahdri.github.io/mockconference/static/js/3.adc8b15d.chunk.js",
+    "static/js/3.adc8b15d.chunk.js.map": "https://justkahdri.github.io/mockconference/static/js/3.adc8b15d.chunk.js.map",
     "index.html": "https://justkahdri.github.io/mockconference/index.html",
     "static/css/2.150d169a.chunk.css.map": "https://justkahdri.github.io/mockconference/static/css/2.150d169a.chunk.css.map",
     "static/css/main.573596aa.chunk.css.map": "https://justkahdri.github.io/mockconference/static/css/main.573596aa.chunk.css.map",
-    "static/js/2.0d1771fe.chunk.js.LICENSE.txt": "https://justkahdri.github.io/mockconference/static/js/2.0d1771fe.chunk.js.LICENSE.txt",
+    "static/js/2.0e8a89fb.chunk.js.LICENSE.txt": "https://justkahdri.github.io/mockconference/static/js/2.0e8a89fb.chunk.js.LICENSE.txt",
     "static/media/adrie.jpg": "https://justkahdri.github.io/mockconference/static/media/adrie.e77d4beb.jpg",
     "static/media/andrea.jpg": "https://justkahdri.github.io/mockconference/static/media/andrea.7305efc3.jpg",
     "static/media/conference.jpg": "https://justkahdri.github.io/mockconference/static/media/conference.b64c4339.jpg",
@@ -29,10 +29,10 @@
     "static/media/samuel.jpg": "https://justkahdri.github.io/mockconference/static/media/samuel.c59684d1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2b7c0a5a.js",
+    "static/js/runtime-main.0fb4c758.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.0d1771fe.chunk.js",
+    "static/js/2.0e8a89fb.chunk.js",
     "static/css/main.573596aa.chunk.css",
-    "static/js/main.67d2ef6f.chunk.js"
+    "static/js/main.5d84fcd3.chunk.js"
   ]
 }
