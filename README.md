@@ -59,9 +59,9 @@ You can [download](https://github.com/justkahdri/mockconference/releases/tag/v1.
 
 ## Related
 
-* [My Portfolio](https://github.com/amitmerchant1990/markdownify-web) - to see more of my projects.
-* [i18Next](https://github.com/amitmerchant1990/markdownify-web) - library for live translations.
-* [Bootstrap](https://github.com/amitmerchant1990/markdownify-web) - framework.
+* [My Portfolio](https://www.notion.so/Joaqu-n-R-Montes-1f8cf3510fac4e2fafb81e6932cf04b6) - to see more of my projects.
+* [i18Next](https://www.i18next.com/) - library for live translations.
+* [Bootstrap](https://getbootstrap.com/) - framework.
 
 ## License
 
